@@ -43,3 +43,5 @@ otherwise need to bound execution time. Implementing timeouts in Go is easy and 
 26. [Non-Blocking Channel Operations](https://gobyexample.com/non-blocking-channel-operations) basic sends and receives 
 on channels are blocking. However, we can use select with a default clause to implement non-blocking sends, receives, 
 and even non-blocking multi-way selects. [Source](/main/non-blocking-channel-operations.go)
+27. [Closing Channels](https://gobyexample.com/closing-channels) closing a channel indicates that no more values will be 
+sent on it. This can be useful to communicate completion to the channel’s receivers. [Source](/main/closing-channels.go)
