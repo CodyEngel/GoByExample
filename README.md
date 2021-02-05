@@ -35,3 +35,5 @@ multiple goroutines to finish, you may prefer to use a WaitGroup. [Source](/main
 23. [Channel Directions](https://gobyexample.com/channel-directions) when using channels as function parameters, you can 
 specify if a channel is meant to only send or receive values. This specificity increases the type-safety of the program.
 [Source](/main/channel-directions.go)
+24. [Select](https://gobyexample.com/select) Go’s select lets you wait on multiple channel operations. Combining goroutines 
+and channels with select is a powerful feature of Go. [Source](/main/select.go)
