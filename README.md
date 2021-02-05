@@ -32,3 +32,6 @@ channels accept a limited number of values without a corresponding receiver for 
 22. [Channel Synchronization](https://gobyexample.com/channel-synchronization) we can use channels to synchronize execution 
 across goroutines. Here’s an example of using a blocking receive to wait for a goroutine to finish. When waiting for 
 multiple goroutines to finish, you may prefer to use a WaitGroup. [Source](/main/channel-synchronization.go)
+23. [Channel Directions](https://gobyexample.com/channel-directions) when using channels as function parameters, you can 
+specify if a channel is meant to only send or receive values. This specificity increases the type-safety of the program.
+[Source](/main/channel-directions.go)
