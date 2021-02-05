@@ -29,3 +29,6 @@ into channels from one goroutine and receive those values into another goroutine
 21. [Channel Buffering](https://gobyexample.com/channel-buffering) by default channels are unbuffered, meaning that they 
 will only accept sends (chan <-) if there is a corresponding receive (<- chan) ready to receive the sent value. Buffered 
 channels accept a limited number of values without a corresponding receiver for those values. [Source](/main/channel-buffering.go)
+22. [Channel Synchronization](https://gobyexample.com/channel-synchronization) we can use channels to synchronize execution 
+across goroutines. Here’s an example of using a blocking receive to wait for a goroutine to finish. When waiting for 
+multiple goroutines to finish, you may prefer to use a WaitGroup. [Source](/main/channel-synchronization.go)
