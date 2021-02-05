@@ -51,4 +51,7 @@ provide iteration over basic data structures. We can also use this syntax to ite
 29. [Timers](https://gobyexample.com/timers) we often want to execute Go code at some point in the future, or repeatedly 
 at some interval. Go’s built-in timer and ticker features make both of these tasks easy. We’ll look first at timers and 
 then at tickers. [Source](/main/timers.go)
+30. [Tickers](https://gobyexample.com/tickers) timers are for when you want to do something once in the future - tickers 
+are for when you want to do something repeatedly at regular intervals. Here’s an example of a ticker that ticks 
+periodically until we stop it. [Source](/main/tickers.go)
                                                                        
