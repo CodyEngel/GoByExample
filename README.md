@@ -45,3 +45,7 @@ on channels are blocking. However, we can use select with a default clause to im
 and even non-blocking multi-way selects. [Source](/main/non-blocking-channel-operations.go)
 27. [Closing Channels](https://gobyexample.com/closing-channels) closing a channel indicates that no more values will be 
 sent on it. This can be useful to communicate completion to the channel’s receivers. [Source](/main/closing-channels.go)
+28. [Range over Channels](https://gobyexample.com/range-over-channels) in a previous example we saw how for and range 
+provide iteration over basic data structures. We can also use this syntax to iterate over values received from a channel.
+[Source](/main/range-over-channels.go)
+                                                                       
