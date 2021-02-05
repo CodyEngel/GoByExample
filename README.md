@@ -37,3 +37,6 @@ specify if a channel is meant to only send or receive values. This specificity i
 [Source](/main/channel-directions.go)
 24. [Select](https://gobyexample.com/select) Go’s select lets you wait on multiple channel operations. Combining goroutines 
 and channels with select is a powerful feature of Go. [Source](/main/select.go)
+25. [Timeouts](https://gobyexample.com/timeouts) are important for programs that connect to external resources or that 
+otherwise need to bound execution time. Implementing timeouts in Go is easy and elegant thanks to channels and select.
+[Source](/main/timeouts.go)
