@@ -54,4 +54,5 @@ then at tickers. [Source](/main/timers.go)
 30. [Tickers](https://gobyexample.com/tickers) timers are for when you want to do something once in the future - tickers 
 are for when you want to do something repeatedly at regular intervals. Here’s an example of a ticker that ticks 
 periodically until we stop it. [Source](/main/tickers.go)
-                                                                       
+31. [Worker Pools](https://gobyexample.com/worker-pools) in this example we’ll look at how to implement a worker pool 
+using goroutines and channels. [Source](/main/worker-pools.go)
