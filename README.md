@@ -48,4 +48,7 @@ sent on it. This can be useful to communicate completion to the channel’s rece
 28. [Range over Channels](https://gobyexample.com/range-over-channels) in a previous example we saw how for and range 
 provide iteration over basic data structures. We can also use this syntax to iterate over values received from a channel.
 [Source](/main/range-over-channels.go)
+29. [Timers](https://gobyexample.com/timers) we often want to execute Go code at some point in the future, or repeatedly 
+at some interval. Go’s built-in timer and ticker features make both of these tasks easy. We’ll look first at timers and 
+then at tickers. [Source](/main/timers.go)
                                                                        
