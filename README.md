@@ -68,3 +68,7 @@ though. Here we’ll look at using the sync/atomic package for atomic counters a
 35. [Mutexes](https://gobyexample.com/mutexes) in the previous example we saw how to manage simple counter state using 
 atomic operations. For more complex state we can use a mutex to safely access data across multiple goroutines.
 [Source](/main/mutexes.go)
+36. [Stateful Goroutines](https://gobyexample.com/stateful-goroutines) in the previous example we used explicit locking 
+with mutexes to synchronize access to shared state across multiple goroutines. Another option is to use the built-in 
+synchronization features of goroutines and channels to achieve the same result. This channel-based approach aligns with 
+Go’s ideas of sharing memory by communicating and having each piece of data owned by exactly 1 goroutine.
