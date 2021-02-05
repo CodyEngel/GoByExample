@@ -40,3 +40,6 @@ and channels with select is a powerful feature of Go. [Source](/main/select.go)
 25. [Timeouts](https://gobyexample.com/timeouts) are important for programs that connect to external resources or that 
 otherwise need to bound execution time. Implementing timeouts in Go is easy and elegant thanks to channels and select.
 [Source](/main/timeouts.go)
+26. [Non-Blocking Channel Operations](https://gobyexample.com/non-blocking-channel-operations) basic sends and receives 
+on channels are blocking. However, we can use select with a default clause to implement non-blocking sends, receives, 
+and even non-blocking multi-way selects. [Source](/main/non-blocking-channel-operations.go)
