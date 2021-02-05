@@ -58,3 +58,6 @@ periodically until we stop it. [Source](/main/tickers.go)
 using goroutines and channels. [Source](/main/worker-pools.go)
 32. [WaitGroups](https://gobyexample.com/waitgroups) to wait for multiple goroutines to finish, we can use a wait group.
 [Source](/main/wait-groups.go)
+33. [Rate Limiting](https://gobyexample.com/rate-limiting) is an important mechanism for controlling resource utilization 
+and maintaining quality of service. Go elegantly supports rate limiting with goroutines, channels, and tickers.
+[Source](/main/rate-limiting.go)
