@@ -24,3 +24,5 @@ This outlines the examples which have already been completed and are in order of
 17. [Interfaces](https://gobyexample.com/interfaces)
 18. [Errors](https://gobyexample.com/errors)
 19. [Goroutines](https://gobyexample.com/goroutines)
+20. [Channels](https://gobyexample.com/channels) are the pipes that connected concurrent goroutines. You can send values
+into channels from one goroutine and receive those values into another goroutine. [Source](/main/channels.go)
