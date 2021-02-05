@@ -65,3 +65,6 @@ and maintaining quality of service. Go elegantly supports rate limiting with gor
 communication over channels. We saw this for example with worker pools. There are a few other options for managing state 
 though. Here we’ll look at using the sync/atomic package for atomic counters accessed by multiple goroutines.
 [Source](/main/atomic-counters.go)
+35. [Mutexes](https://gobyexample.com/mutexes) in the previous example we saw how to manage simple counter state using 
+atomic operations. For more complex state we can use a mutex to safely access data across multiple goroutines.
+[Source](/main/mutexes.go)
