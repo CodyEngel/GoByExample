@@ -13,6 +13,7 @@ func main() {
 
 	// The <- channel syntax receives a value from the channel.
 	// Here we'll receive the "ping" message we sent above and print it out.
+	// Note: if we comment out the line above that sends the message, this program will terminate with a deadlock. Neat!
 	msg := <- messages
 	fmt.Println(msg)
 }
