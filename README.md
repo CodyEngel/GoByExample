@@ -56,3 +56,5 @@ are for when you want to do something repeatedly at regular intervals. Here’s 
 periodically until we stop it. [Source](/main/tickers.go)
 31. [Worker Pools](https://gobyexample.com/worker-pools) in this example we’ll look at how to implement a worker pool 
 using goroutines and channels. [Source](/main/worker-pools.go)
+32. [WaitGroups](https://gobyexample.com/waitgroups) to wait for multiple goroutines to finish, we can use a wait group.
+[Source](/main/wait-groups.go)
