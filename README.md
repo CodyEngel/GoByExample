@@ -61,3 +61,7 @@ using goroutines and channels. [Source](/main/worker-pools.go)
 33. [Rate Limiting](https://gobyexample.com/rate-limiting) is an important mechanism for controlling resource utilization 
 and maintaining quality of service. Go elegantly supports rate limiting with goroutines, channels, and tickers.
 [Source](/main/rate-limiting.go)
+34. [Atomic Counters](https://gobyexample.com/atomic-counters) the primary mechanism for managing state in Go is 
+communication over channels. We saw this for example with worker pools. There are a few other options for managing state 
+though. Here we’ll look at using the sync/atomic package for atomic counters accessed by multiple goroutines.
+[Source](/main/atomic-counters.go)
